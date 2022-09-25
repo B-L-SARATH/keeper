@@ -1,0 +1,174 @@
+html {
+  height: 100%;
+}
+body {
+  background-color: #d8d8d8 !important;
+
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 150px;
+}
+.navbar {
+  padding: 0, 20px;
+  background-color: #f5ba13 !important;
+}
+.navbar-brand {
+  font-size: 35px;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+  color: #fff;
+  margin-right: 65%;
+}
+.navinput {
+  outline: none;
+  box-shadow: none !important;
+}
+
+.footer {
+  padding: 50px;
+  height: 130px;
+  background-color: #f5ba13;
+  color: black;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer p {
+  color: #fff;
+  font-size: 20px;
+  font-family: "roboto";
+}
+.icons {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.icon {
+  margin: 15px;
+}
+.iconitem {
+  color: #fff;
+  text-decoration: none;
+}
+.iconitem :hover {
+  text-decoration: none;
+  color: black;
+}
+.note {
+  position: relative;
+  width: 275px;
+  min-height: 120px;
+  height: auto;
+  background-color: #fff;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 0 1.5px 1.5px grey;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  word-break: break-word;
+}
+.notediv {
+  display: inline-grid;
+}
+.note h5 {
+  font-size: 20px;
+}
+.note p {
+  font-size: 20px;
+}
+.note button {
+  border: none;
+  outline: none;
+  font-size: 17px;
+  position: absolute;
+  border-radius: 5px;
+  color: #f5ba13;
+  bottom: 6px;
+  right: 6px;
+  background-color: #fff;
+}
+.notemaker {
+  position: relative;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+  border-radius: 8px;
+}
+.notemaker input {
+  font-size: 20px;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+.notemaker textarea {
+  border: none;
+  font-size: 20px;
+  width: 100%;
+  outline: none;
+  resize: none;
+}
+.notemaker button {
+  width: 38px;
+  height: 38px;
+  border: none;
+  outline: none;
+  position: absolute;
+  background-color: #f5ba13;
+  border-radius: 50%;
+  color: #fff;
+  top: 140px;
+  right: 8px;
+}
+
+@media screen and (max-width: 400px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: #eee !important;
+  }
+  .navbar {
+    padding-left: 20px;
+  }
+  .navbar-brand {
+    margin: auto;
+  }
+  .notemaker {
+    width: 350px;
+  }
+  .note {
+    margin-left: 45px;
+    width: 300px;
+  }
+  .note h5 {
+    font-size: 15x;
+  }
+  .note p {
+    font-size: 18px;
+  }
+  .navbar-brand {
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    margin-top: 5px;
+  }
+  .navbar {
+    width: 100vw;
+    overflow-x: hidden;
+  }
+}
